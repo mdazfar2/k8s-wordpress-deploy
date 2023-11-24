@@ -1,4 +1,4 @@
-## Deploy WordPress with Kubernetes -
+# Deploy WordPress with Kubernetes -
 
 Firstly we use Kustomization file in Kubernetes are used to declare **resources and customizations**. The kustomization.yaml file is a specification of resources plus customizations, and it is used to declare the manifests you want to change and how you want to change them.
 
@@ -48,4 +48,42 @@ Firstly we use Kustomization file in Kubernetes are used to declare **resources 
     
   6. **To check the Secrets**
      
-     I will update you. I have to go to work, but I will update you soon. Thanks for coming. 😊
+     ```bash
+     kubectl get secret
+     ```
+
+     - It allows you to retrieve information about a secret. By default, the command does not display the contents of a secret. This is to protect the secret from being exposed accidentally or from being 
+       stored in a terminal log
+
+7. **To check PersistentVolumeClaim**
+
+   ```bash
+   kubectl get pvc
+   ```
+   - It is a request for a specific amount of storage from a persistent volume and when it is available then it you get PersistentVolume.
+
+8. **To check PersistentVolume**
+
+   ```bash
+   kubectl get pv
+   ```
+   -  It is a piece of storage in a Kubernetes cluster that is provisioned and managed by the cluster’s administrator. It is a way to separate storage from the actual pod that needs it.
+
+9. **To get port using services**
+
+    ```bash
+    kubectl get svc
+    ```
+    - You will get wordpress and wordpress-mysql remember that you have to use port of the wordpress when you will get it on.
+  
+10. **It's time to deploy your wordpress using ip**
+
+    ```bash
+    minikube ip
+    ```
+    - After using this command, you will get the IP address. Once you get the IP, use the same IP in your browser, attaching the port which you will get from the 'svc' command.
+   
+- Now, congratulations! ✨ You have completed deploying your WordPress. Enjoy your WordPress journey! 😊
+
+  ***If you are facing any issues then feel free to message me on - [LinkedIn](www.linkedin.com/in/md-azfar-alam)***
+
