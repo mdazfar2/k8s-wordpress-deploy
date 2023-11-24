@@ -1,6 +1,6 @@
 # Deploy WordPress with Kubernetes -
 
-Firstly we use Kustomization file in Kubernetes are used to declare **resources and customizations**. The kustomization.yaml file is a specification of resources plus customizations, and it is used to declare the manifests you want to change and how you want to change them..
+Firstly we use Kustomization file in Kubernetes are used to declare **resources and customizations**. The kustomization.yaml file is a specification of resources plus customizations, and it is used to declare the manifests you want to change and how you want to change them.
 
 - **In the above repo, you will find the YAML code for kustomization, and within the kustomization, there are two more YAML files called 'mysql-wordpress.yml' and 'wordpress-deployment.yml'.**
 
