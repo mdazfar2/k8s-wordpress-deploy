@@ -85,5 +85,5 @@ Firstly we use Kustomization file in Kubernetes are used to declare **resources 
    
 - Now, congratulations! ✨ You have completed deploying your WordPress. Enjoy your WordPress journey! 😊
 
-  ***If you are facing any issues then feel free to message me on - [LinkedIn](www.linkedin.com/in/md-azfar-alam)***
+  ***If you are facing any issues then feel free to message me on - [LinkedIn](www.linkedin.com/in/md-azfar-alam) or [Discord](https://discordapp.com/users/877531143610708028)***
 
